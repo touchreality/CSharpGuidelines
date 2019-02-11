@@ -3,22 +3,25 @@ Coding Guidelines for C#
 
 Theses guidelines provides coding standards, but also good coding practices that we have adopted at TouchReality.
 
-[Class Design (AV1000)](https://github.com/touchreality/CSharpGuidelines/blob/master/_pages/1000_ClassDesignGuidelines.md)
+[Class Design (AV1000)](_pages/1000_ClassDesignGuidelines.md)
 
-[Member Design (AV1100)](https://github.com/touchreality/CSharpGuidelines/blob/master/_pages/1100_MemberDesignGuidelines.md)
+[Member Design (AV1100)](_pages/1100_MemberDesignGuidelines.md)
 
-[Miscellaneous (AV1200)](https://github.com/touchreality/CSharpGuidelines/blob/master/_pages/1200_MiscellaneousDesignGuidelines.md)
+[Miscellaneous (AV1200)](_pages/1200_MiscellaneousDesignGuidelines.md)
 
-[Maintainability Guidelines (AV1500)](https://github.com/touchreality/CSharpGuidelines/blob/master/_pages/1500_MaintainabilityGuidelines.md)
+[Maintainability Guidelines (AV1500)](_pages/1500_MaintainabilityGuidelines.md)
 
-[Naming Conventions (AV1700)](https://github.com/touchreality/CSharpGuidelines/blob/master/_pages/1700_NamingGuidelines.md)
+[Naming Conventions (AV1700)](_pages/1700_NamingGuidelines.md)
+
+[Layout Guidelines (AV2400)][Naming Conventions (AV1700)](_pages/2400_LayoutGuidelines.md)
 
 ## To define...
 
 Performance Guidelines (AV1800)
+
 .NET Framework Usage (AV2200)
+
 Comments and XML Documentation (AV2300)
-Layout Guidelines (AV2400)
 
 ## Notes
 At TouchReality, we are currently in an adoption phase. It mean that the current rules are not strict but are welcomed.
