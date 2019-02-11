@@ -28,7 +28,7 @@ All identifiers (such as types, type members, parameters and variables) should b
 | Resource key | Pascal | `SaveButtonTooltipText` |
 | Constant field | Pascal | `MaximumItems` |
 | Private static readonly field | Pascal | `RedValue` |
-| Private field | Camel | `listItem` |
+| Private field | Camel | `_listItem` |
 | Non-private field | Pascal | `MainPanel` |
 | Property | Pascal | `BackColor` |
 | Event | Pascal | `Click` |
@@ -47,9 +47,11 @@ All identifiers (such as types, type members, parameters and variables) should b
 ### <a name="av1704"></a> Don't include numbers in variables, parameters and type members (AV1704) ![](/assets/images/3.png)
 In most cases they are a lazy excuse for not defining a clear and intention-revealing name.
 
+<!---
 ### <a name="av1705"></a> Don't prefix fields (AV1705) ![](/assets/images/1.png)
 
 For example, don't use `g_` or `s_` to distinguish static from non-static fields. A method in which it is difficult to distinguish local variables from member fields is generally too big. Examples of incorrect identifier names are: `_currentUser`, `mUserName`, `m_loginTime`.
+-->
 
 ### <a name="av1706"></a> Don't use abbreviations (AV1706) ![](/assets/images/2.png)
 For example, use `ButtonOnClick` rather than `BtnOnClick`. Avoid single character variable names, such as `i` or `q`. Use `index` or `query` instead.
