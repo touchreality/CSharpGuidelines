@@ -13,7 +13,7 @@ Theses guidelines provides coding standards, but also good coding practices that
 
 [Naming Conventions (AV1700)](_pages/1700_NamingGuidelines.md)
 
-[Layout Guidelines (AV2400)][Naming Conventions (AV1700)](_pages/2400_LayoutGuidelines.md)
+[Layout Guidelines (AV2400)](_pages/2400_LayoutGuidelines.md)
 
 ## To define...
 
