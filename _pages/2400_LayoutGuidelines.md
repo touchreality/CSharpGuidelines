@@ -77,26 +77,32 @@ sidebar:
 Using static directives and using alias directives should be written below regular using directives.
 Always place these directives at the top of the file, before any namespace declarations (not inside them).
 
-### <a name="av2406"></a> Place members in a well-defined order (AV2406) ![](/assets/images/1.png)
+### <a name="av2406b"></a> Place members in a well-defined order (AV2406b) ![](/assets/images/1.png)
 Maintaining a common order allows other team members to find their way in your code more easily. In general, a source file should be readable from top to bottom, as if reading a book, to prevent readers from having to browse up and down through the code file.
 
-1. Private fields and constants (in a region)
-2. Public constants
-3. Public static readonly fields
-4. Factory methods
-5. Constructors and the finalizer
-6. Events 
+1. Public static readonly fields
+2. Organize your fields per 'aspects' (from AOP, aspect = separation of cross-cutting concerns)
+3. Events
+3. Factory methods
+4. Constructors and the finalizer
 7. Public properties
-8. Other methods and private properties in calling order
+8. Methods, organize them per 'aspects' (from AOP, aspect = separation of cross-cutting concerns)
+9. Helper methods
 
-Declare local functions at the bottom of their containing method bodies (after all executable code).
+### <a name="av2407"></a> Use`#region` to organize your code (AV2407) ![](/assets/images/1.png)
 
+Regions are helpful to organize your code and have a quick overview of the class structure and features.
+In this context, organize them first by the categories defined (AV2406b), them if necessary per aspects
+(from AOP, aspect = separation of cross-cutting concerns)
+
+<!--
 ### <a name="av2407"></a> Be reluctant with `#region` (AV2407) ![](/assets/images/1.png)
 Regions can be helpful, but can also hide the main purpose of a class. Therefore, use `#region` only for:
 
 - Private fields and constants (preferably in a `Private Definitions` region).
 - Nested classes
 - Interface implementations (only if the interface is not the main purpose of that class)
+-->
 
 ### <a name="av2410"></a> Use expression-bodied members appropriately (AV2410) ![](/assets/images/1.png)
 Favor expression-bodied member syntax over regular member syntax only when:
