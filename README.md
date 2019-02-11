@@ -25,3 +25,11 @@ At TouchReality, we are currently in an adoption phase. It mean that the current
 We ask you to read them, practice them, discuss them together.
 
 Nothing is writen in the stone, it is a working document that is intended to evolve.
+
+To help you in this decision, I’ve assigned a level of importance to each guideline:
+
+![](/assets/images/1.png) Guidelines that you should never skip and should be applicable to all situations
+
+![](/assets/images/2.png) Strongly recommended guidelines
+
+![](/assets/images/3.png) May not be applicable in all situations
