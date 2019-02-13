@@ -137,7 +137,7 @@ namespace TouchReality.BusinessObjects
         /// <summary>
         /// Provides information related to the furniture's placement in the room.
         /// </summary>
-        public class PlacementState
+        public struct PlacementState
         {
             /// <summary>Does the furniture has a valid placement</summary>
             public bool IsValid = true;
