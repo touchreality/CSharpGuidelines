@@ -39,7 +39,7 @@ To help you in this decision, I’ve assigned a level of importance to each guid
 
 ![](/assets/images/3.png) May not be applicable in all situations
 
-Code Overview
+## Code Overview
 
 The current section gives you a quick overview of our coding convention, of course it doesn't represents all the rules but gives you a quick entry point.
 
