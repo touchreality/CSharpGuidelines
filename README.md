@@ -3,6 +3,8 @@ Coding Guidelines for C#
 
 Theses guidelines provides coding standards, but also good coding practices that we have adopted at TouchReality.
 
+[Basic Principles (AV0000)](_pages/0000_BasicPrinciples.md)
+
 [Class Design (AV1000)](_pages/1000_ClassDesignGuidelines.md)
 
 [Member Design (AV1100)](_pages/1100_MemberDesignGuidelines.md)
